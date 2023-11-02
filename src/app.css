@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #666;
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .title {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .cover-img {
+  height: 300px;
+  width: 100%;
+  background-color: #eee;
+  margin-top: 16px;
+}
+
+main .caption {
+  margin-top: 16px;
+  color: #666;
+  font-size: 18px;
+}
+
+main .dots {
+  font-size: 30px;
+  text-align: center;
+}
+
+.space {
+  margin-top: 16px;
+}
+
+footer {
+  height: 140px;
+  background-color: #eee;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container {
+    width: 100%;
+}
+
+footer .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 50px; */
+  width: 100%;
+}
+
+footer .content p {
+  font-size: 24px;
+}
+
+/* Gloable */
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
